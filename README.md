@@ -1,2 +1,3 @@
 # Python_study
-学习Python
+
+Python 的入门练习
