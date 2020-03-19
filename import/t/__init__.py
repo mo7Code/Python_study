@@ -1,3 +1,3 @@
-a = "init file"
-
-print("init")
+import sys
+import io
+import datetime
