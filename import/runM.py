@@ -2,6 +2,10 @@ from t import *
 
 print(sys)
 
+"""
+asda
+
+"""
 
 """
 
