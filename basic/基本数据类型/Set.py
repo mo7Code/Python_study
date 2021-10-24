@@ -2,6 +2,8 @@
 
 # Set（集合）
 
+# 集合（set）是一个无序的不重复元素序列。
+
 sites = {'Google', 'Taobao', 'Runoob', 'Facebook', 'Zhihu', 'Baidu'}
 
 print(sites)
