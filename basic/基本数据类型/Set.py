@@ -29,3 +29,11 @@ print(a | b)     # a 和 b 的并集
 print(a & b)     # a 和 b 的交集
 
 print(a ^ b)     # a 和 b 中不同时存在的元素
+
+
+thisset = set(("Google", "Runoob", "Taobao", "Facebook"))
+thisset2 = set(("Google"))
+
+
+print("thisset", thisset)
+print("thisset2", thisset2)
