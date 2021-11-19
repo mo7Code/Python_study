@@ -1,15 +1,24 @@
 #!/usr/bin/python3
 
 class MyNumber:
-    def _iter_(self):
+    def __iter__(self):
         self.a = 1
         return self
 
-    def _nex_(self):
+    def __next__(self):
         x = self.a
         self.a += 1
         return x
 
 
-muclass = MyNumber()
-myiter = iter(muclass)
+myclass = MyNumber()
+myiter = iter(myclass)
+
+
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
