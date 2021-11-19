@@ -9,3 +9,7 @@ class MyNumber:
         x = self.a
         self.a += 1
         return x
+
+
+muclass = MyNumber()
+myiter = iter(muclass)
